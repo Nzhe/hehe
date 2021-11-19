@@ -1,0 +1,9 @@
+package day01;
+
+import day02.Abbb;
+
+public class Use {
+	public static void main(String[] args ) {
+		Abbb aaa = new Abbb();
+	}
+}

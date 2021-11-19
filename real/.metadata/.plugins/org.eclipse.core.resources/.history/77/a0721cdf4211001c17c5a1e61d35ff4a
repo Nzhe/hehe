@@ -1,0 +1,17 @@
+package day01;
+
+public class Service {
+	
+	public Service() {
+
+	}
+
+	public void mth01() {
+		
+	}
+	
+	public void mth02() {
+		
+	}
+
+}

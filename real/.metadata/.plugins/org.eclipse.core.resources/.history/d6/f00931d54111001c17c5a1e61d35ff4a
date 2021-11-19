@@ -1,0 +1,10 @@
+package day01;
+
+import day02.*; // * 의 뜻. : day02에있는 모든 클래스를 임포트 시키겠다.
+
+public class Use {
+	public static void main(String[] args ) {
+		Abbb aaa = new Abbb();
+		Cccc ccc = new Cccc();
+	}
+}

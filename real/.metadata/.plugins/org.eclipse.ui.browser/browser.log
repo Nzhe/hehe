@@ -1,0 +1,4 @@
+
+9월 09, 2021 11:06:47.849 NEW SESSION
+9월 09, 2021 11:06:47.849 [29284:27796:0909/110647.843:ERROR:device_event_log_impl.cc(214)] [11:06:47.843] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+9월 09, 2021 12:39:38.451 [29284:27796:0909/123938.451:ERROR:device_event_log_impl.cc(214)] [12:39:38.450] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)

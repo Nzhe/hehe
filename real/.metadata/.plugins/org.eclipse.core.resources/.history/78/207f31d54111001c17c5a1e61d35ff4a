@@ -1,0 +1,9 @@
+package day02;
+
+public class Abbb extends Object {
+	@Override
+	public String toString() { //어노테이션은 정보의 정보이다. => MetaData
+		
+		return super.toString();
+	}
+}

@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+}
+
+#container{
+}
+
+#header{
+    background-color: #666666;
+    color: #fefefe;
+    text-align: center;
+    height: 150px;
+}

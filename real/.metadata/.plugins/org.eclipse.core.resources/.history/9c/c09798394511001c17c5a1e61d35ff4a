@@ -1,0 +1,23 @@
+package day01;
+
+import java.lang.reflect.Method;
+
+public class AnnoUse {
+
+	public static void main(String[] args) {
+		for(Method mtd : Service.class.getDeclaredMethods()) {
+			System.out.println(mtd.getName());
+			
+		}
+		for(Method mtd : Service.class.getDeclaredMethods()) {
+			System.out.println(mtd.getName());
+			
+		}
+		for(Method mtd : Service.class.getDeclaredMethods()) {
+			System.out.println(mtd.getName());
+			
+		}
+
+	}
+
+}

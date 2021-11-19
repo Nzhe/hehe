@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!--head는 브러우저에게 알려주는 정보들로 구성된다.-->
+    <!--HTML주석, Markup 주석-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>첫 페이지</title>
+    <!--검색엔진에 가장 먼저 검색하는 키워드이다. 그웹사이트를 가장 잘 설명할 수 있는 단어를 선택한다.-->
+    <style>
+    body{
+        background-color: rgb(143, 223, 167);
+        color: brown;
+    }
+    .blue{ 
+        color: blue;
+
+    }
+    .box{
+        border: 0.5px solid white;
+
+    }
+    .back{
+        background-color: indianred;
+    }
+        /*문서를 사용자들이 보기 쉽도록 꾸며주는 역할을 한다.*/
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        /* 동적인 문서를 만들기 위해 작성하는 클라이언트 프로그래밍 언어(자바스크립트)*/
+        $(document).ready(function(){
+            $("#wonchul").click(function(){
+                alert("이거 누른 흑우 없제~~?");
+                console.log("이거 누른 흑우 요있네...")
+                $(this).text("집가고 싶당")
+            })
+        });
+   </script>
+</head>
+<body id="">
+    <div id="maincontainer" class="box" >
+        <div id="subFirstCon">
+            <h1 class="blue box back">제목입니다.</h1> 가나다라마바사
+            <p class="back">이것은 문단입니다</p>
+        </div>
+    </div>
+    <h1>h1입니다</h1> 에헤잇...
+    <h3 class="back blue">h3입니다</h3>
+    <h4 class="blue box">h4입니다</h4>
+    <span class="back"></span>어허허.. <a href="" class="box"></a>
+    <a href="www.google.com" class="box">구글링크</a>
+    
+</body>
+</html>

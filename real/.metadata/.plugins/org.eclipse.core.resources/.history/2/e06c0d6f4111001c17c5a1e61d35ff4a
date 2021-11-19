@@ -1,0 +1,9 @@
+package day02;
+
+public class Abbb extends Object {
+	@Override
+	public String toString() {
+		
+		return super.toString();
+	}
+}

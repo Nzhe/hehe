@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	 		<meta name="keywords" content="여기에 중요한 검색어를 입력합니다." />
+			<meta name="description" content="이 사이트를 설멍할 수 있는 간단한 문구를 작성합니다." />
+			<title>이 사이트에 가장 중요한 단어를 여기에 입력</title>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		</head>
+	<body>
+		<div id="container">
+	
+		</div>
+		<script>
+			let a = 20;
+			let b = [1, 2, 3]; //배열 => int[] b = {1,2,3}; sysout( b[1] );
+			let c = [1, 2, 'wons', 4, 5]
+				console.log("배열 c의 세번째 자료 = " + c[2]);
+			let d = ['won', function(){ alert("피곤하당");} ];
+				console.log("배열 d의 첫번째 자료 = " + d[0]);
+				console.log("배열 d의 두번째 자료 = " + d[1]);
+				d[1]();
+				let e = {
+					"name" : "wons",
+					"kor" : 100,
+					"eng" : 12,
+					met : 75,
+					toPrint : function(){
+						console.log( "이름은 : " + this.name + "국어점수 : " + this.kor + "영어점수 : " + this.eng)
+					}
+						
+						
+				}; //객체
+				console.log( "=======================>" + e.name);
+				e.toPrint();
+				
+		</script>
+	</body>
+</html>

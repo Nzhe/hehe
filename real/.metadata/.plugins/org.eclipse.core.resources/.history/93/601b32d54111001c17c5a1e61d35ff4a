@@ -1,0 +1,14 @@
+package day02;
+
+public class Abbb extends Object {
+	@Override
+	public String toString() { //어노테이션은 정보의 정보이다. => MetaData
+		
+		return super.toString();
+	}
+	@Deprecated // 이 클래스에서 가능한 이 클래스를 사용하지 마세요 알려주는
+	public String aaaa() {
+		return "우너절";
+	}
+	
+}

@@ -1,0 +1,9 @@
+package day02;
+
+public class Abbb {
+	public int a;
+	protected int b;
+	int c;
+	private int d;
+
+}

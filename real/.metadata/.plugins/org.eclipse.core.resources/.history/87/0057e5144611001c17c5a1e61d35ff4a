@@ -1,0 +1,21 @@
+package day01;
+
+
+import java.lang.reflect.Method;
+
+public class AnnoUse {
+
+	public static void main(String[] args) {
+		for(Method mtd : Service.class.getDeclaredMethods()) {
+			if(mtd.isAnnotationPresent(SampleAnnoWons.class)) {
+				System.out.println(mtd.getName() + "메서드에는 어노테이션이 붙어 있습니다.");
+			}else {
+				
+			}
+			
+		}
+
+
+	}
+
+}

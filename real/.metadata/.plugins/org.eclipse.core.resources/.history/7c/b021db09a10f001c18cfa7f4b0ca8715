@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="EUC-KR">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	 		<meta name="keywords" content="여기에 중요한 검색어를 입력합니다." />
+			<meta name="description" content="이 사이트를 설멍할 수 있는 간단한 문구를 작성합니다." />
+			<title>이 사이트에 가장 중요한 단어를 여기에 입력</title>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		</head>
+	<body>
+		<div id="container">
+			<div id="Header">222</div>
+			<div id="contents"></div>
+			<div>333</div>
+			<div>444</div>
+			<div id="footer">555</div>
+		</div>
+	</body>
+</html>
